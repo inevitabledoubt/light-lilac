@@ -101,7 +101,7 @@ export const LOOK: ThemeSetArgs = {
       borderWidth: 1,
       radius: 24,
       // One violet for both modes: a raw color is the only way to make it see-through.
-      shadow: { x: 0, y: 0, blur: 28, color: 'rgba(168, 85, 247, 0.8)' },
+      shadow: { x: 0, y: 0, blur: 28, color: 'rgba(168, 85, 247, 0.65)' },
       paddingX: 20,
       paddingY: 12,
     },
