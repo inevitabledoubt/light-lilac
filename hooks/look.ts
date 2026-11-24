@@ -82,7 +82,7 @@ export const colors: ThemeColors = {
       'role-accent-on': '#0c0e14', // accent-foreground
       'role-tooltip-bg': '#ffffff',
       'role-tooltip-fg': '#090a0f',
-      'bg-user-message': '#141624', // surface
+      'bg-user-message': '#2b2545', // surface-active
       'text-user-message': '#ffffff',
     },
   },
