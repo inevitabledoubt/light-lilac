@@ -1,0 +1,5 @@
+{
+  "name": "editorial-modernist",
+  "owner": { "name": "inevitabledoubt" },
+  "plugins": [{ "name": "editorial-modernist", "source": "./" }]
+}
