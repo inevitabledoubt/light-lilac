@@ -96,10 +96,11 @@ export const LOOK: ThemeSetArgs = {
     UserMessage: {
       backgroundColor: 'bg-user-message',
       color: 'text-user-message',
-      borderColor: 'border',
+      borderColor: 'fill-accent',
       borderWidth: 1,
       radius: 24,
-      shadow: 'none',
+      // One violet for both modes: a raw color is the only way to make it see-through.
+      shadow: { x: 0, y: 0, blur: 28, color: 'rgba(168, 85, 247, 0.8)' },
       paddingX: 20,
       paddingY: 12,
     },
