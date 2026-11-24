@@ -3,7 +3,7 @@ import { expect, test } from 'claude-code/testing'
 import { colors } from './look'
 import { checkColors } from './make-colors.js'
 
-test('both modes carry the design system and the app will paint them', async () => {
+test('both modes carry the accents and the app will paint them', async () => {
   // The exact orchid accent leaves a white switch knob under 3:1 in dark: a known trade.
   const problems = checkColors(colors).filter(line => !line.startsWith('switch-knob on fill-accent'))
   expect(problems).toEqual([])

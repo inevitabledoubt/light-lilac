@@ -1,5 +1,5 @@
 {
-  "name": "editorial-modernist",
+  "name": "light-lilac",
   "owner": { "name": "inevitabledoubt" },
-  "plugins": [{ "name": "editorial-modernist", "source": "./" }]
+  "plugins": [{ "name": "light-lilac", "source": "./" }]
 }

@@ -2,9 +2,9 @@ import type { ThemeColors, ThemeSetArgs } from 'claude-code'
 
 import { makeColors } from './make-colors.js'
 
-// Values are the tokens of the "Editorial Modernist" design system.
+// Light lilac by day, deep midnight and orchid by night.
 const { theme } = makeColors({
-  label: 'Editorial Modernist',
+  label: 'Light Lilac',
   light: {
     // status-available for success; danger has no token, so stays the app's.
     roles: {
