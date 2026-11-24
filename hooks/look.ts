@@ -96,7 +96,8 @@ export const LOOK: ThemeSetArgs = {
     UserMessage: {
       backgroundColor: 'bg-user-message',
       color: 'text-user-message',
-      borderColor: 'fill-accent',
+      // See-through violet over the bubble: a deeper lilac in light, a soft violet in dark.
+      borderColor: 'rgba(110, 70, 200, 0.25)',
       borderWidth: 1,
       radius: 24,
       // One violet for both modes: a raw color is the only way to make it see-through.
